@@ -4,8 +4,8 @@ const basicPrice = document.querySelector(".price-1");
 const profPrice = document.querySelector(".price-2");
 const masterPrice = document.querySelector(".price-3");
 
-toggleBtn.addEventListener("click", function (e) {
-  e.preventDefault();
+toggleBtn.addEventListener("click", function (event) {
+  //   e.preventDefault();
   if (toggleArea.classList.contains("monthly")) {
     toggleArea.classList.remove("monthly");
     toggleArea.classList.add("anually");
